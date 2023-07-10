@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Appel à l'API meteo</title>
+</head>
+<body>
+<h1>Appel à l'API meteo</h1>
+
+<form action="/weatherPost" method="post">
+  <label for="apiKey">Cle API :</label>
+  <input type="text" id="apiKey" name="apiKey" required><br><br>
+
+  <label for="location">Lieu :</label>
+  <input type="text" id="location" name="location" required><br><br>
+
+  <input type="submit" value="Obtenir la météo">
+</form>
+</body>
+</html>
